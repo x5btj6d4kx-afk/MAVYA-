@@ -1,8 +1,14 @@
 # MAVYA — RDV du jour
 
-Site généré chaque matin à partir des rendez-vous de Maxime.
+## Où rentrer tes rendez-vous
+
+Ouvre **`rdv-du-jour.md`**, une ligne par commerce :
+
+```
+Nom du commerce | Adresse complète
+```
+
+L’automatisation lit ce fichier chaque matin à 8h30, puis met à jour le site.
 
 - [Page d’accueil du jour](index.html)
 - Une page premium par commerce (créée par l’automatisation)
-
-Ouvrir `index.html` sur ordinateur ou téléphone une fois le site publié (GitHub Pages).
